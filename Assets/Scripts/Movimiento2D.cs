@@ -18,6 +18,6 @@ public class Movimiento2D : MonoBehaviour
         Debug.Log(direccion);
 
         transform.position += direccion * speed * Time.deltaTime;
-        Debug.Log (Time.deltaTime);
+        Debug.Log(Time.deltaTime);
     }
 }
